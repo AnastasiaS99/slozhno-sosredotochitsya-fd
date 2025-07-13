@@ -1,6 +1,6 @@
 :root.theme-light {
 	--title-short-text-color: #FFC2E6;
-	--main-background-image: url(/images/cover-image-light.png);
+	--main-background-image: url(../images/cover-image-light.png);
 	--title-text-color: #353430;
 	--accent-color: #FF8DCB;
 	--menu-color: #353430;
@@ -9,7 +9,7 @@
 	--main-background-color: #FFF1F7;
 	--menu-focus-color: #FF0070;
 	--answer-text-color: #353430;
-	--answer-short-text-color: #353430;
+	--answer-termin-color: #353430;
 	--question-text-color: #353430;
 	--corner-color: #353430;
 }
@@ -24,7 +24,7 @@
 
 @media (prefers-color-scheme: light) {
 	:root {
-		--main-background-image: url(/images/cover-image-light.png);
+		--main-background-image: url(../images/cover-image-light.png);
 		--title-short-text-color: #FFC2E6;
 		--title-text-color: #353430;
 		--accent-color: #FF8DCB;
@@ -33,7 +33,7 @@
 		--main-background-color: #FFF1F7;
 		--menu-focus-color: #FF0070;
 		--answer-text-color: #353430;
-		--answer-short-text-color: #353430;
+		--answer-termin-color: #353430;
 		--question-text-color: #353430;
 		--corner-color: #353430;
 		--shadow-accent-color: #FF8DCB;

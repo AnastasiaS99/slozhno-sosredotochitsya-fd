@@ -123,7 +123,7 @@
 
 .header__theme-menu-button_active {
 	pointer-events: none;
-	outline: 1px solid var(--menu-color);
+	outline: 1px solid currentColor;
 }
 
 .content {
@@ -171,15 +171,15 @@
 }
 
 .questions {
-	color: var(--answer-short-text-color);
+	color: var(--answer-termin-color);
 	font-family: var(--main-font), monospace;
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 23.4px;
 }
 
-.title__short {
-	color: var(--answer-short-text-color);
+.termin {
+	color: var(--answer-termin-color);
 	background-color: var(--accent-color);
 	font-family: inherit;
 	font-size: inherit;
@@ -189,7 +189,7 @@
 	margin-bottom: 10px;
 }
 
-.text__large {
+.Explanation {
 	font-family: inherit;
 	font-size: inherit;
 	line-height: inherit;
@@ -199,24 +199,24 @@
 	margin-bottom: 20px;
 }
 
-.next__card__section .answer {
+.any__more__card__section .answer {
 	margin-bottom: 20px;
 }
 
-.next__card__section .answer:last-of-type {
+.any__more__card__section .answer:last-of-type {
 	margin-bottom: 0;
 }
 
-.card__section__gallery .title__short {
+.card__section__gallery .termin {
 	font-size: 18px;
 }
 
 .answer,
-.text__large:last-of-type {
+.Explanation:last-of-type {
 	margin-bottom: 0;
 }
 
-.sub__title__short {
+.sub__termin {
 	margin-bottom: 20px;
 }
 
@@ -339,7 +339,7 @@
 		margin-bottom: 0;
 	}
 
-	.next__card__section,
+	.any__more__card__section,
 	.card__section__gallery {
 		display: grid;
 		grid-template-rows: min-content, 1fr;
@@ -347,21 +347,21 @@
 		row-gap: 20px;
 	}
 
-	.next__card__section .question__text {
+	.any__more__card__section .question__text {
 		grid-row: 1;
 		grid-column: 1;
 	}
 
-	.next__card__section .questions {
+	.any__more__card__section .questions {
 		grid-row: 2;
 		grid-column: 1 / -1;
 	}
 
-	.next__card__section .answer {
+	.any__more__card__section .answer {
 		margin-bottom: 20px;
 	}
 
-	.card__section__gallery .title__short {
+	.card__section__gallery .termin {
 		grid-row: 1;
 		grid-column: 1 / -1;
 		margin: 0;
@@ -430,19 +430,19 @@
 		column-gap: 10px;
 	}
 
-	.next__card__section,
+	.any__more__card__section,
 	.card__section__gallery {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		row-gap: 20px;
 	}
 
-	.next__card__section .question__text {
+	.any__more__card__section .question__text {
 		grid-row: 1;
 		grid-column: 1;
 	}
 
-	.next__card__section .questions {
+	.any__more__card__section .questions {
 		display: grid;
 		grid-row: 2;
 		grid-column: 1 / -1;
@@ -455,7 +455,7 @@
 		grid-template-rows: 260px 315px 433px;
 	}
 
-	.card__section__gallery .title__short {
+	.card__section__gallery .termin {
 		grid-row: 1;
 		grid-column: 1 / -1;
 		margin: 0;

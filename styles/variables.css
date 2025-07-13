@@ -1,14 +1,14 @@
 :root {
 	--main-font: 'IBM Plex mono';
 	--title-short-text-color: #DB00FF;
-	--main-background-image: url(/images/cover-image-dark.png);
+	--main-background-image: url(../images/cover-image-dark.png);
 	--title-text-color: #000028;
 	--main-background-color: #000028;
 	--menu-color: #FF0070;
 	--menu-color-rgb: rgba(255, 0, 112, 0.4);
 	--menu-focus-color: #FF0070;
 	--answer-text-color: #F1B2CE;
-	--answer-short-text-color: #000028;
+	--answer-termin-color: #000028;
 	--question-text-color: #FF0070;
 	--corner-color: #FF0070;
 	--shadow-accent-color: #FF0070;
