@@ -189,7 +189,7 @@
 	margin-bottom: 10px;
 }
 
-.Explanation {
+.explanation {
 	font-family: inherit;
 	font-size: inherit;
 	line-height: inherit;
@@ -212,7 +212,7 @@
 }
 
 .answer,
-.Explanation:last-of-type {
+.explanation:last-of-type {
 	margin-bottom: 0;
 }
 
